@@ -8,12 +8,47 @@
 
 /* Begin PBXBuildFile section */
 		1D7A0C8A1C229EE700EC9376 /* ReflectionKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D7A0C891C229EE700EC9376 /* ReflectionKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D7A0C931C229F1D00EC9376 /* NSObject+RKPropertyIntrospection.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D7A0C911C229F1D00EC9376 /* NSObject+RKPropertyIntrospection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D7A0C941C229F1D00EC9376 /* NSObject+RKPropertyIntrospection.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D7A0C921C229F1D00EC9376 /* NSObject+RKPropertyIntrospection.m */; };
+		1D7A0C971C22A01C00EC9376 /* NSObject+RKMethodManipulation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D7A0C951C22A01C00EC9376 /* NSObject+RKMethodManipulation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D7A0C981C22A01C00EC9376 /* NSObject+RKMethodManipulation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D7A0C961C22A01C00EC9376 /* NSObject+RKMethodManipulation.m */; };
+		1D7A0CA21C22A6B000EC9376 /* ReflectionKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D7A0C861C229EE700EC9376 /* ReflectionKit.framework */; };
+		1D7A0CA91C22A6D400EC9376 /* RKPropertyIntrospectionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D7A0CA81C22A6D400EC9376 /* RKPropertyIntrospectionTest.m */; };
+		1D7A0CAC1C22A6FB00EC9376 /* RKPropertyIntrospectionTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D7A0CAB1C22A6FB00EC9376 /* RKPropertyIntrospectionTarget.m */; };
+		1D7A0CAF1C22BDB000EC9376 /* RKSelectorIntrospectionTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D7A0CAE1C22BDB000EC9376 /* RKSelectorIntrospectionTarget.m */; };
+		1D7A0CB11C22BDF300EC9376 /* RKSelectorIntrospectionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D7A0CB01C22BDF300EC9376 /* RKSelectorIntrospectionTest.m */; };
+		1D7A0CB41C22D97200EC9376 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 1D7A0CB31C22D97200EC9376 /* README.md */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D7A0CA31C22A6B000EC9376 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D7A0C7D1C229EE700EC9376 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D7A0C851C229EE700EC9376;
+			remoteInfo = ReflectionKit;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		1D7A0C861C229EE700EC9376 /* ReflectionKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReflectionKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D7A0C891C229EE700EC9376 /* ReflectionKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReflectionKit.h; sourceTree = "<group>"; };
 		1D7A0C8B1C229EE700EC9376 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D7A0C911C229F1D00EC9376 /* NSObject+RKPropertyIntrospection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+RKPropertyIntrospection.h"; sourceTree = "<group>"; };
+		1D7A0C921C229F1D00EC9376 /* NSObject+RKPropertyIntrospection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+RKPropertyIntrospection.m"; sourceTree = "<group>"; };
+		1D7A0C951C22A01C00EC9376 /* NSObject+RKMethodManipulation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+RKMethodManipulation.h"; sourceTree = "<group>"; };
+		1D7A0C961C22A01C00EC9376 /* NSObject+RKMethodManipulation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+RKMethodManipulation.m"; sourceTree = "<group>"; };
+		1D7A0C9D1C22A6B000EC9376 /* ReflectionKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReflectionKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D7A0CA11C22A6B000EC9376 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D7A0CA81C22A6D400EC9376 /* RKPropertyIntrospectionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKPropertyIntrospectionTest.m; sourceTree = "<group>"; };
+		1D7A0CAA1C22A6FB00EC9376 /* RKPropertyIntrospectionTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKPropertyIntrospectionTarget.h; sourceTree = "<group>"; };
+		1D7A0CAB1C22A6FB00EC9376 /* RKPropertyIntrospectionTarget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKPropertyIntrospectionTarget.m; sourceTree = "<group>"; };
+		1D7A0CAD1C22BDB000EC9376 /* RKSelectorIntrospectionTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKSelectorIntrospectionTarget.h; sourceTree = "<group>"; };
+		1D7A0CAE1C22BDB000EC9376 /* RKSelectorIntrospectionTarget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKSelectorIntrospectionTarget.m; sourceTree = "<group>"; };
+		1D7A0CB01C22BDF300EC9376 /* RKSelectorIntrospectionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKSelectorIntrospectionTest.m; sourceTree = "<group>"; };
+		1D7A0CB21C22D88F00EC9376 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		1D7A0CB31C22D97200EC9376 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1D7A0CB51C22D9D300EC9376 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,13 +59,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1D7A0C9A1C22A6B000EC9376 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D7A0CA21C22A6B000EC9376 /* ReflectionKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		1D7A0C7C1C229EE700EC9376 = {
 			isa = PBXGroup;
 			children = (
+				1D7A0CB51C22D9D300EC9376 /* LICENSE.md */,
+				1D7A0CB31C22D97200EC9376 /* README.md */,
+				1D7A0CB21C22D88F00EC9376 /* .gitignore */,
 				1D7A0C881C229EE700EC9376 /* ReflectionKit */,
+				1D7A0C9E1C22A6B000EC9376 /* ReflectionKitTests */,
 				1D7A0C871C229EE700EC9376 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -39,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				1D7A0C861C229EE700EC9376 /* ReflectionKit.framework */,
+				1D7A0C9D1C22A6B000EC9376 /* ReflectionKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -47,9 +95,27 @@
 			isa = PBXGroup;
 			children = (
 				1D7A0C891C229EE700EC9376 /* ReflectionKit.h */,
+				1D7A0C911C229F1D00EC9376 /* NSObject+RKPropertyIntrospection.h */,
+				1D7A0C921C229F1D00EC9376 /* NSObject+RKPropertyIntrospection.m */,
+				1D7A0C951C22A01C00EC9376 /* NSObject+RKMethodManipulation.h */,
+				1D7A0C961C22A01C00EC9376 /* NSObject+RKMethodManipulation.m */,
 				1D7A0C8B1C229EE700EC9376 /* Info.plist */,
 			);
 			path = ReflectionKit;
+			sourceTree = "<group>";
+		};
+		1D7A0C9E1C22A6B000EC9376 /* ReflectionKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				1D7A0CA11C22A6B000EC9376 /* Info.plist */,
+				1D7A0CAA1C22A6FB00EC9376 /* RKPropertyIntrospectionTarget.h */,
+				1D7A0CAB1C22A6FB00EC9376 /* RKPropertyIntrospectionTarget.m */,
+				1D7A0CA81C22A6D400EC9376 /* RKPropertyIntrospectionTest.m */,
+				1D7A0CAD1C22BDB000EC9376 /* RKSelectorIntrospectionTarget.h */,
+				1D7A0CAE1C22BDB000EC9376 /* RKSelectorIntrospectionTarget.m */,
+				1D7A0CB01C22BDF300EC9376 /* RKSelectorIntrospectionTest.m */,
+			);
+			path = ReflectionKitTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,7 +125,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D7A0C931C229F1D00EC9376 /* NSObject+RKPropertyIntrospection.h in Headers */,
 				1D7A0C8A1C229EE700EC9376 /* ReflectionKit.h in Headers */,
+				1D7A0C971C22A01C00EC9376 /* NSObject+RKMethodManipulation.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,16 +152,38 @@
 			productReference = 1D7A0C861C229EE700EC9376 /* ReflectionKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		1D7A0C9C1C22A6B000EC9376 /* ReflectionKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D7A0CA51C22A6B000EC9376 /* Build configuration list for PBXNativeTarget "ReflectionKitTests" */;
+			buildPhases = (
+				1D7A0C991C22A6B000EC9376 /* Sources */,
+				1D7A0C9A1C22A6B000EC9376 /* Frameworks */,
+				1D7A0C9B1C22A6B000EC9376 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D7A0CA41C22A6B000EC9376 /* PBXTargetDependency */,
+			);
+			name = ReflectionKitTests;
+			productName = ReflectionKitTests;
+			productReference = 1D7A0C9D1C22A6B000EC9376 /* ReflectionKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		1D7A0C7D1C229EE700EC9376 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = RK;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = DreamCity;
 				TargetAttributes = {
 					1D7A0C851C229EE700EC9376 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					1D7A0C9C1C22A6B000EC9376 = {
 						CreatedOnToolsVersion = 7.2;
 					};
 				};
@@ -111,12 +201,20 @@
 			projectRoot = "";
 			targets = (
 				1D7A0C851C229EE700EC9376 /* ReflectionKit */,
+				1D7A0C9C1C22A6B000EC9376 /* ReflectionKitTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		1D7A0C841C229EE700EC9376 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D7A0C9B1C22A6B000EC9376 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -130,10 +228,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D7A0C981C22A01C00EC9376 /* NSObject+RKMethodManipulation.m in Sources */,
+				1D7A0C941C229F1D00EC9376 /* NSObject+RKPropertyIntrospection.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D7A0C991C22A6B000EC9376 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D7A0CAC1C22A6FB00EC9376 /* RKPropertyIntrospectionTarget.m in Sources */,
+				1D7A0CAF1C22BDB000EC9376 /* RKSelectorIntrospectionTarget.m in Sources */,
+				1D7A0CB41C22D97200EC9376 /* README.md in Sources */,
+				1D7A0CA91C22A6D400EC9376 /* RKPropertyIntrospectionTest.m in Sources */,
+				1D7A0CB11C22BDF300EC9376 /* RKSelectorIntrospectionTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D7A0CA41C22A6B000EC9376 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D7A0C851C229EE700EC9376 /* ReflectionKit */;
+			targetProxy = 1D7A0CA31C22A6B000EC9376 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		1D7A0C8C1C229EE700EC9376 /* Debug */ = {
@@ -257,6 +377,28 @@
 			};
 			name = Release;
 		};
+		1D7A0CA61C22A6B000EC9376 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ReflectionKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = info.maxchan.ReflectionKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1D7A0CA71C22A6B000EC9376 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ReflectionKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = info.maxchan.ReflectionKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -274,6 +416,14 @@
 			buildConfigurations = (
 				1D7A0C8F1C229EE700EC9376 /* Debug */,
 				1D7A0C901C229EE700EC9376 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1D7A0CA51C22A6B000EC9376 /* Build configuration list for PBXNativeTarget "ReflectionKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D7A0CA61C22A6B000EC9376 /* Debug */,
+				1D7A0CA71C22A6B000EC9376 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

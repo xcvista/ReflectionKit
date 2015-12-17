@@ -16,4 +16,5 @@ FOUNDATION_EXPORT const unsigned char ReflectionKitVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <ReflectionKit/PublicHeader.h>
 
-
+#import <ReflectionKit/NSObject+RKPropertyIntrospection.h>
+#import <ReflectionKit/NSObject+RKMethodManipulation.h>
